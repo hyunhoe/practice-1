@@ -6,7 +6,7 @@ package myClass;
  * @author (작성자 이름)
  * @version (버전 번호 또는 작성한 날짜)
  */
-public class User
+public class User extends DB_Element
 {
     private String name;
     private Integer stID;
@@ -28,7 +28,7 @@ public class User
      */
     public String getID()
     {
-        return x + y;
+        return String.valueOf(stID);
     }
 
     /**

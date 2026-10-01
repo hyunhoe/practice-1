@@ -10,7 +10,6 @@ import java.util.*;
 public class LibDB<T>
 {
     // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 변경하세요.
-
     private ArrayList<T> db;
 
     /**
