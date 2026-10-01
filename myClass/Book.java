@@ -37,7 +37,7 @@ public class Book extends DB_Element
     public String getID()
     {
         // 여기에 코드를 작성하세요.
-        return x + y;
+        return bookID;
     }
 
     /**
