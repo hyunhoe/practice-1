@@ -39,7 +39,7 @@ public class User
      */
     public String toString()
     {
-        return "[" + stID + "] " + name + " "; 
+        return "[" + stID + "] " + name; 
     }
 
 }

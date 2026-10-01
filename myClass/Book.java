@@ -1,4 +1,5 @@
 package myClass;
+import DB_Element;
 
 /**
  * Book 클래스의 설명을 작성하세요.
@@ -6,7 +7,7 @@ package myClass;
  * @author (작성자 이름)
  * @version (버전 번호 또는 작성한 날짜)
  */
-public class Book
+public class Book extends DB_Element
 {
     private String author; // 저자 이름
     private String bookID; // 책 등록번호
@@ -48,7 +49,7 @@ public class Book
     public String toSTring()
     {
         return "(" + bookID + ") " + title + ", " + 
-                author + ", " + publisher + ", " + year + " ";
+                author + ", " + publisher + ", " + year;
     }
 
 }
