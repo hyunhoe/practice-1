@@ -57,8 +57,9 @@ public class LibDB<T>
      */
     public void printAllElement()
     {
-        // 여기에 코드를 작성하세요
-        return y;
-    }
+        for(int s : db.size()){
+            db.get(s);
+        }
 
+    }
 }
