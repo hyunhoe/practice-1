@@ -26,10 +26,9 @@ public class LibDB<T>
      * @param  y  메소드의 샘플 파라미터
      * @return    x 더하기 y의 결과값을 반환
      */
-    public void addElement(T __)
+    public void addElement(T element)
     {
-        // 여기에 코드를 작성하세요.
-        return x + y;
+        db.add(element);
     }
 
     /**
@@ -38,10 +37,16 @@ public class LibDB<T>
      * @param  y  메소드의 샘플 파라미터
      * @return    x 와 y의 합
      */
-    public T findElement(String __)
+    public T findElement(String ID)
     {
-        // 여기에 코드를 작성하세요
-        return y;
+        Iterator<T> it = db.iterator();
+        while(it.hasNext()){
+            T element = it.next();
+            if(ID == element){
+                return element;
+                break;
+            }
+        }
     }
 
     /**
