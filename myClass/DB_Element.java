@@ -4,8 +4,8 @@ package myClass;
 /**
  * DB_Element 클래스의 설명을 작성하세요.
  *
- * @author (작성자 이름)
- * @version (버전 번호 또는 작성한 날짜)
+ * @author (2022320029_이상민)
+ * @version (26.10.04)
  */
 public abstract class DB_Element
 {

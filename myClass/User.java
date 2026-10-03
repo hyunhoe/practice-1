@@ -24,9 +24,9 @@ public class User extends DB_Element
     }
 
     /**
-     * getID 메소드 - stID를 문자열로 변환해 반환한다.
+     * getID 메소드 - stID를 문자열로 변환해 반환.
      *
-     * @return   stID를 변환한 문자열
+     * @return   stID를 변환한 문자열.
      */
     public String getID()
     {
