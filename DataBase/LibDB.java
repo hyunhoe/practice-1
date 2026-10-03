@@ -44,9 +44,9 @@ public class LibDB<T>
             T element = it.next();
             if(ID == element){
                 return element;
-                break;
             }
         }
+        return null; // 아무것도 돌려줄 수 없음
     }
 
     /**
@@ -57,8 +57,8 @@ public class LibDB<T>
      */
     public void printAllElement()
     {
-        for(int s : db.size()){
-            db.get(s);
+        for(T element : db){
+            System.out.println(element);
         }
     }
 }
